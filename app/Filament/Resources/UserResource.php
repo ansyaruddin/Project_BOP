@@ -94,6 +94,7 @@ class UserResource extends Resource
                 TextColumn::make('role'),
                 TextColumn::make('area'),
                 TextColumn::make('unit'),
+                TextColumn::make('region'),
             ])
             ->filters([
                 //
